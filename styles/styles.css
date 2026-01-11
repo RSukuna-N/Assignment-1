@@ -1,0 +1,148 @@
+/* Shared style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif; /* Whole website will use this by default */
+}
+
+h1{
+  font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.btn {
+    /* max-width: 164px; */
+    border: none;
+    background-color:#469165 ;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 12.5px 16px;
+    cursor: pointer;
+   
+}
+.btn:hover{
+    
+    background-color: #3d7a55;
+}
+
+
+/* Header */
+.top{
+    
+    margin-bottom: 5px;
+}
+.top a{
+    color: #525252;
+    text-decoration: none;}
+
+nav{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width:1920px ;
+    max-height: 92px;
+    background-color: #FFFFFF; 
+    align-items: center;
+    padding: 0 120px;
+    margin: 0 auto ;
+}
+nav .logo img{
+    margin-top: 16px ;
+    margin-bottom: 16px ;
+    max-width: 139px;
+    height: 60px;
+    display: block;
+}
+
+nav .menu ul{
+    font-size: 16px;
+    font-weight: 500;
+    margin:34px 346px ;
+    width: 365px;
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+nav .menu ul a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Banner */
+#banner{
+    border: 1px solid red;
+    width: 100%;
+    height: 674px;
+    max-width:1920px ;
+    display: flex;
+    flex-direction: column; /* Stacking Vertically */
+    align-items: center;
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner .btn1{
+    color: #469165;
+    background-color:#FFFFFF ;
+    width: 229px;
+    margin:115.5px auto 16px ;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+}
+.banner-content{
+    text-align: center; 
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+#banner h1{
+    color: #FFFFFF;
+    max-width: 770px;
+    margin: 0 auto;
+    font-size:75px;
+}
+#banner h1 span{
+    color:#30B868 ;
+}
+#banner p{
+    color:#FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 16px auto 32px ;
+    max-width:700px; /* Forcing it to wrap */
+    text-align: center;
+    font-weight: 300;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+#banner .btn{
+    width: 251px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#banner .btn2{
+    width: 251px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 198px;
+    padding: 12.5px 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#banner .btn2:hover{
+    background-color: #0000005e;;  
+}
